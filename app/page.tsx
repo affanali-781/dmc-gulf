@@ -8,18 +8,6 @@ export default function Home() {
 		<div className="min-h-screen max-w-full overflow-x-hidden">
 			<NavBar />
 			<Hero />
-
-			<ExplorePage
-				heading1="Explore"
-				heading2="Hotels"
-				text="Curated experiences that showcase the very best of Gulf hospitality, culture, and luxury."
-			/>
-
-			<ExplorePage
-				heading1="Explore"
-				heading2="Activities"
-				text="Curated experiences that showcase the very best of Gulf hospitality, culture, and luxury."
-			/>
 		</div>
 	);
 }

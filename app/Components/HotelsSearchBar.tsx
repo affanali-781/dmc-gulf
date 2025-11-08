@@ -27,7 +27,7 @@ const HotelsSearchBar = () => {
 
 	return (
 		<>
-			<div className="flex items-center justify-between bg-white rounded-full shadow-md w-300 h-20 mx-100 px-6">
+			<div className="flex items-center justify-between bg-white rounded-full shadow-md w-300 h-20 mx-100 px-6 mb-20">
 				{/* Dropdown 1: Location */}
 				<div className="flex flex-col">
 					<label className="text-gray-700 text-sm font-medium mb-1">
@@ -68,7 +68,7 @@ const HotelsSearchBar = () => {
 					<DatePicker
 						selected={checkOut}
 						onChange={(date) => setCheckOut(date)}
-						className="border border-gray-300 rounded-md px-3 py-1 text-sm w-[160px]"
+						className="border border-gray-300 rounded-md px-3 py-1 text-sm w-40"
 						dateFormat="dd MMMM yyyy"
 					/>
 				</div>
@@ -109,6 +109,12 @@ const HotelsSearchBar = () => {
 					Search
 				</button>
 			</div>
+
+			<ExplorePage
+				heading1="Explore"
+				heading2="Hotels"
+				text="Curated experiences that showcase the very best of Gulf hospitality, culture, and luxury."
+			/>
 		</>
 	);
 };

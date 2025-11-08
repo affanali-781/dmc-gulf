@@ -1,5 +1,6 @@
 import React from "react";
 import Cards from "./Cards";
+import PhotoAlbum from "./PhotoAlbum";
 
 interface ExplorePageProps {
 	heading1: string;
@@ -114,6 +115,8 @@ const ExplorePage: React.FC<ExplorePageProps> = ({
 					</div>
 				))}
 			</div>
+
+			<PhotoAlbum />
 		</div>
 	);
 };

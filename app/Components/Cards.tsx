@@ -18,9 +18,9 @@ const Cards: React.FC<CardProps> = ({
 	price,
 }) => {
 	return (
-		<div className="bg-white rounded-2xl shadow-md overflow-hidden w-[85vw] sm:w-[60vw] md:w-[40vw] lg:w-[30vw] xl:w-[22vw] h-auto">
+		<div className="bg-white rounded-2xl shadow-md overflow-hidden w-[85vw] sm:w-[60vw] md:w-[40vw] lg:w-[30vw] xl:w-[22vw] h-auto mb-30">
 			{/* Image */}
-			<div className="relative w-full aspect-[4/3]">
+			<div className="relative w-full aspect-4/3">
 				<Image src={imageSrc} alt={heading} fill className="object-cover" />
 			</div>
 
